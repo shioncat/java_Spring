@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/MySQLCatalog">
+		<column name="模式名称" visible="true" order="0" width="152"/>
+		<column name="默认字符集" visible="true" order="1" width="74"/>
+		<column name="默认排序规则" visible="true" order="2" width="86"/>
+		<column name="SQL 路径" visible="true" order="3" width="64"/>
+		<column name="数据库大小" visible="true" order="4" width="74"/>
+	</item>
+	<item id="NodeList/MySQLTable">
+		<column name="表名" visible="true" order="0" width="100"/>
+		<column name="引擎" visible="true" order="1" width="100"/>
+		<column name="自增" visible="true" order="2" width="100"/>
+		<column name="数据长度" visible="true" order="3" width="100"/>
+		<column name="描述" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableColumn">
+		<column name="字段名" visible="true" order="0" width="86"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="数据类型" visible="true" order="2" width="77"/>
+		<column name="非空" visible="true" order="3" width="38"/>
+		<column name="自增" visible="true" order="4" width="38"/>
+		<column name="键" visible="true" order="5" width="32"/>
+		<column name="缺省" visible="true" order="6" width="146"/>
+		<column name="额外的" visible="true" order="7" width="143"/>
+		<column name="Expression" visible="true" order="8" width="74"/>
+		<column name="注释" visible="true" order="9" width="38"/>
+	</item>
+	<item id="NodeList/MySQLTableForeignKey">
+		<column name="名称" visible="true" order="0" width="100"/>
+		<column name="所有者" visible="true" order="1" width="100"/>
+		<column name="依赖表" visible="true" order="2" width="100"/>
+		<column name="Type" visible="true" order="3" width="100"/>
+		<column name="依赖对象" visible="true" order="4" width="100"/>
+		<column name="On Delete" visible="true" order="5" width="100"/>
+		<column name="On Update" visible="true" order="6" width="100"/>
+	</item>
+	<item id="NodeList/MySQLView">
+		<column name="视图名称" visible="true" order="0" width="100"/>
+		<column name="检查项" visible="true" order="1" width="100"/>
+		<column name="可更新的" visible="true" order="2" width="100"/>
+		<column name="定义者" visible="true" order="3" width="100"/>
+		<column name="Algorithm" visible="true" order="4" width="100"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="115"/>
+		<column name="Time" visible="true" order="1" width="150"/>
+		<column name="Info" visible="true" order="2" width="1600"/>
+	</item>
+</items>
