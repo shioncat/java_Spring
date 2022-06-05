@@ -1,0 +1,60 @@
+package com.study.springmvc.lab.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.study.springmvc.lab.entity.Fund;
+import com.study.springmvc.lab.entity.Fundstock;
+import com.study.springmvc.lab.repository.FundDao;
+import com.study.springmvc.lab.repository.FundstockDao_1;
+
+@RestController
+@RequestMapping("/lab/fundstock_1")
+public class FundstockController_1{
+	private int pageNumber;
+	@Autowired
+	private FundstockDao_1 fundstockDao_1;
+	
+	
+	@GetMapping("/{fid}")
+	public Fundstock get(@PathVariable("fid") Integer fid) {
+		return fundstockDao_1.get(fid);
+	}
+	
+	@GetMapping("/totalPagecount")
+	public int totalPagecount() {
+		return (int)Math.ceil(fundstockDao_1.count() / (double)fundstockDao_1.LIMIT);
+	}
+	
+	@GetMapping("/page/{pageNumber}")
+	public List<Fundstock> page(@PathVariable("pageNumber") int pageNumber) {
+		this.pageNumber = pageNumber;
+		int offset = (pageNumber-1) * FundstockDao_1.LIMIT;
+		return fundstockDao_1.queryPage(offset);
+	}
+	
+	@PostMapping("/")
+	public int add(@RequestBody Fundstock fundstock) {
+		return fundstockDao_1.add(fundstock);
+	}
+	
+	@PutMapping("/")
+	public int update(@RequestBody Fundstock fundstock) {
+		return fundstockDao_1.update(fundstock);
+	}
+	
+	@DeleteMapping("/{sid}")
+	public int delete(@PathVariable("sid") Integer sid) {
+		return fundstockDao_1.delete(sid);
+	}
+	
+}

@@ -1,0 +1,91 @@
+
+2月 28, 2022 09:41:49.321 NEW SESSION
+2月 28, 2022 09:41:49.321 [7304:9536:0228/094149.320:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2月 28, 2022 09:41:49.321 [7304:9536:0228/094149.320:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2月 28, 2022 09:41:49.322 [7304:9536:0228/094149.320:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2月 28, 2022 09:41:49.325 [7304:9536:0228/094149.325:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2月 28, 2022 09:41:49.604 [7304:7864:0228/094149.603:ERROR:device_event_log_impl.cc(214)] [09:41:49.603] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+2月 28, 2022 09:49:48.599 [7304:7864:0228/094948.598:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+2月 28, 2022 16:05:18.302 [7304:7864:0228/160518.300:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+2月 28, 2022 16:15:30.996 [7304:7864:0228/161530.995:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+2月 28, 2022 18:07:33.459 [7304:12704:0228/180733.458:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+2月 28, 2022 23:35:42.136 [7304:2788:0228/233542.135:ERROR:database.cc(1777)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason,total_foreground_duration )VALUES(?,?,?,?,?)
+2月 28, 2022 23:35:42.604 [7304:2788:0228/233542.604:ERROR:database.cc(1777)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason,total_foreground_duration )VALUES(?,?,?,?,?)
+2月 28, 2022 23:41:25.707 [7304:15204:0228/234125.706:ERROR:database.cc(1777)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason,total_foreground_duration )VALUES(?,?,?,?,?)
+
+5月 13, 2022 09:44:17.731 NEW SESSION
+5月 13, 2022 09:44:17.734 [7908:11396:0513/094414.627:ERROR:device_event_log_impl.cc(214)] [09:44:14.628] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5月 13, 2022 09:44:22.380 [7908:12048:0513/094422.380:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 09:44:45.262 [7908:12048:0513/094445.261:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 09:45:42.817 [7908:12048:0513/094542.817:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 09:47:36.834 [7908:12048:0513/094736.833:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 09:50:36.562 [7908:12048:0513/095036.561:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 09:57:34.643 [7908:12048:0513/095734.643:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:07:34.656 [7908:12048:0513/100734.655:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:17:34.670 [7908:12048:0513/101734.670:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:27:34.678 [7908:12048:0513/102734.678:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:37:34.687 [7908:12048:0513/103734.686:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:47:34.703 [7908:12048:0513/104734.703:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 10:57:34.707 [7908:12048:0513/105734.706:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:03:18.440 [7908:11396:0513/110318.439:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 11:05:41.253 [7908:11396:0513/110541.252:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 11:07:34.715 [7908:12048:0513/110734.714:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:17:34.731 [7908:12048:0513/111734.730:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:27:34.748 [7908:12048:0513/112734.747:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:37:34.761 [7908:12048:0513/113734.759:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:47:34.772 [7908:12048:0513/114734.771:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 11:57:34.783 [7908:12048:0513/115734.783:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:07:34.786 [7908:12048:0513/120734.786:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:17:34.798 [7908:12048:0513/121734.797:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:27:34.812 [7908:12048:0513/122734.811:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:37:34.827 [7908:12048:0513/123734.826:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:47:34.838 [7908:12048:0513/124734.837:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 12:57:34.847 [7908:12048:0513/125734.846:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 13:07:34.853 [7908:12048:0513/130734.852:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 13:17:34.866 [7908:12048:0513/131734.866:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 13, 2022 13:19:09.811 [7908:12048:0513/131909.810:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+5月 13, 2022 13:43:18.699 [7908:11396:0513/134318.698:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 13:49:07.325 [7908:11396:0513/134907.325:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 13:49:14.272 [7908:11396:0513/134914.272:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 13:49:15.153 [7908:11396:0513/134915.153:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 13:49:15.535 [7908:11396:0513/134915.535:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 13:49:56.654 [7908:11396:0513/134956.654:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 16:36:37.172 [7908:11396:0513/163637.172:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:13:55.542 [7908:11396:0513/171355.542:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:17:28.124 [7908:11396:0513/171728.124:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:19:07.396 [7908:11396:0513/171907.395:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:29:27.546 [7908:11396:0513/172927.546:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:29:43.514 [7908:11396:0513/172943.513:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:29:59.30 [7908:11396:0513/172959.029:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:29:59.637 [7908:11396:0513/172959.637:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:37:37.343 [7908:11396:0513/173737.343:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:37:37.900 [7908:11396:0513/173737.900:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 17:40:06.470 [7908:11396:0513/174006.470:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+5月 13, 2022 22:23:56.889 [7908:11396:0513/222356.888:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+5月 16, 2022 24:23:56.194 NEW SESSION
+5月 16, 2022 24:23:56.195 [2992:10164:0516/002356.183:ERROR:device_event_log_impl.cc(214)] [00:23:56.182] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5月 16, 2022 24:24:04.974 [13572:14180:0516/002404.974:ERROR:device_event_log_impl.cc(214)] [00:24:04.974] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5月 23, 2022 10:32:48.693 NEW SESSION
+5月 23, 2022 10:32:48.693 [10900:10552:0523/103248.662:ERROR:device_event_log_impl.cc(214)] [10:32:48.661] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5月 24, 2022 10:24:40.256 NEW SESSION
+5月 24, 2022 10:24:40.256 [10776:10188:0524/102440.221:ERROR:device_event_log_impl.cc(214)] [10:24:40.220] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5月 24, 2022 15:05:39.364 [10776:1732:0524/150539.364:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 24, 2022 15:06:07.615 [10776:1732:0524/150607.614:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+5月 24, 2022 15:06:52.934 [10776:1732:0524/150652.934:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+
+5月 28, 2022 24:10:22.376 NEW SESSION
+5月 28, 2022 24:10:22.376 [8840:16244:0528/001022.355:ERROR:device_event_log_impl.cc(214)] [00:10:22.355] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5月 29, 2022 16:17:35.988 NEW SESSION
+5月 29, 2022 16:17:35.988 [11696:10524:0529/161735.977:ERROR:device_event_log_impl.cc(214)] [16:17:35.977] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5月 29, 2022 18:10:03.296 NEW SESSION
+5月 29, 2022 18:10:03.296 [15016:13872:0529/181003.294:ERROR:device_event_log_impl.cc(214)] [18:10:03.294] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5月 29, 2022 18:50:29.771 [5984:7268:0529/185029.771:ERROR:device_event_log_impl.cc(214)] [18:50:29.770] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5月 29, 2022 22:36:15.777 [12996:5380:0529/223615.777:ERROR:device_event_log_impl.cc(214)] [22:36:15.777] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+5月 30, 2022 01:13:35.218 NEW SESSION
+5月 30, 2022 01:13:35.218 [7064:14312:0530/011335.216:ERROR:device_event_log_impl.cc(214)] [01:13:35.215] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.

@@ -1,0 +1,23 @@
+package com.study.springmvc.case04.repository;
+
+import java.util.List;
+
+import com.study.springmvc.lab.entity.Fund;
+
+public interface stockDao {
+
+		// 全部查詢
+		List<Fund> queryAll();
+
+			
+		// 新增
+		int add(Fund fund);
+
+		// 修改
+		int update(Fund fund);
+
+		// 刪除
+		int delete(Integer fid);
+}
+
+
